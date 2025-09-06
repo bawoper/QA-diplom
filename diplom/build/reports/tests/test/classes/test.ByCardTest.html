@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ByCardTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ByCardTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/test.html">test</a> &gt; ByCardTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">33</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">20</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m53.59s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">39%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="checkEmptyCardString()"></a>
+<h3 class="failures">Проверка пустой строки номера карты</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186983441.38.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186983441.38.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkEmptyCardString(ByCardTest.java:64)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkEmptyMonthString()"></a>
+<h3 class="failures">Проверка пустой строки поля месяц</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186916749.28.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186916749.28.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkEmptyMonthString(ByCardTest.java:158)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkEmptyYearString()"></a>
+<h3 class="failures">Проверка пустой строки поля год</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186893612.23.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186893612.23.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkEmptyYearString(ByCardTest.java:253)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkHappyPathByCard_2()"></a>
+<h3 class="failures">Проверка покупки с невалидной картой и проверка записи в БД</h3>
+<span class="code">
+<pre>Element not found {[class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186953544.32.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186953544.32.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: Cannot locate an element [class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.rejected(PurchaseTour.java:67)
+	at app//test.ByCardTest.checkHappyPathByCard_2(ByCardTest.java:500)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element [class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongCVc()"></a>
+<h3 class="failures">Проверка некорректного заполнения CVC (три нуля)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186934620.31.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186934620.31.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageWrongFormat(PurchaseTour.java:75)
+	at app//test.ByCardTest.checkWrongCVc(ByCardTest.java:397)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongCardHolder()"></a>
+<h3 class="failures">Проверка некорректного владельца (цифры)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186987953.39.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186987953.39.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageWrongFormat(PurchaseTour.java:75)
+	at app//test.ByCardTest.checkWrongCardHolder(ByCardTest.java:344)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongCardHolder_1()"></a>
+<h3 class="failures">Проверка некорректного владельца (спецсимволы)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186921203.29.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186921203.29.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageWrongFormat(PurchaseTour.java:75)
+	at app//test.ByCardTest.checkWrongCardHolder_1(ByCardTest.java:357)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongCardHolder_2()"></a>
+<h3 class="failures">Проверка некорректного владельца (кириллица)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186925764.30.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186925764.30.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageWrongFormat(PurchaseTour.java:75)
+	at app//test.ByCardTest.checkWrongCardHolder_2(ByCardTest.java:370)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongCardNumber_1()"></a>
+<h3 class="failures">Проверка некорректного номера карты (спецсимволы)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186898085.24.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186898085.24.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongCardNumber_1(ByCardTest.java:91)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongCardNumber_3()"></a>
+<h3 class="failures">Проверка некорректного номера карты (латиница)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186903110.25.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186903110.25.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongCardNumber_3(ByCardTest.java:117)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongCardNumber_4()"></a>
+<h3 class="failures">Проверка некорректного номера карты (кириллица)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186907759.26.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186907759.26.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongCardNumber_4(ByCardTest.java:131)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongCardNumber_5()"></a>
+<h3 class="failures">Проверка некорректного номера карты (все нули)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186912261.27.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186912261.27.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageWrongFormat(PurchaseTour.java:75)
+	at app//test.ByCardTest.checkWrongCardNumber_5(ByCardTest.java:144)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongMonth_1()"></a>
+<h3 class="failures">Проверка некорректного ввода месяца (13-й месяц)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186960473.33.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186960473.33.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageWrongFormat(PurchaseTour.java:75)
+	at app//test.ByCardTest.checkWrongMonth_1(ByCardTest.java:184)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongMonth_2()"></a>
+<h3 class="failures">Проверка некорректного ввода месяца (все нули)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186964990.34.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186964990.34.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageWrongFormat(PurchaseTour.java:75)
+	at app//test.ByCardTest.checkWrongMonth_2(ByCardTest.java:198)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongMonth_3()"></a>
+<h3 class="failures">Проверка некорректного ввода месяца (спецсимволы)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186969585.35.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186969585.35.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongMonth_3(ByCardTest.java:212)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongMonth_4()"></a>
+<h3 class="failures">Проверка некорректного ввода месяца (латиница)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186974203.36.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186974203.36.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongMonth_4(ByCardTest.java:226)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongMonth_5()"></a>
+<h3 class="failures">Проверка некорректного ввода месяца (кириллица)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186978847.37.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186978847.37.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongMonth_5(ByCardTest.java:240)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongYear_1()"></a>
+<h3 class="failures">Проверка проверка некорректного года (спецсимволы)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186879361.20.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186879361.20.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongYear_1(ByCardTest.java:292)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongYear_2()"></a>
+<h3 class="failures">Проверка проверка некорректного года (латиница)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186884029.21.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186884029.21.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongYear_2(ByCardTest.java:305)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="checkWrongYear_3()"></a>
+<h3 class="failures">Проверка проверка некорректного года (кириллица)</h3>
+<span class="code">
+<pre>Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+Expected: visible
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186888647.22.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757186888647.22.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:143)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
+	at app//DataHelper.PurchaseTour.checkMessageFilledField(PurchaseTour.java:71)
+	at app//test.ByCardTest.checkWrongYear_3(ByCardTest.java:318)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6.1', java.version: '11.0.26'
+Driver info: driver.version: unknown
+	at app//com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:55)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	... 12 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Проверка задвоения заголовка (скрытый элемент интерфейса) о результате операции: если тест прошел то проблема</td>
+<td class="success">checkDoubleNotification()</td>
+<td class="success">4.290s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Проверка пустого поля CVC</td>
+<td class="success">checkEmptyCVcString()</td>
+<td class="success">0.339s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Проверка пустой строки поля владелец</td>
+<td class="success">checkEmptyCardHolderString()</td>
+<td class="success">0.339s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Проверка пустой строки номера карты</td>
+<td class="failures">checkEmptyCardString()</td>
+<td class="failures">4.579s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка пустой строки поля месяц</td>
+<td class="failures">checkEmptyMonthString()</td>
+<td class="failures">4.435s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка пустой строки поля год</td>
+<td class="failures">checkEmptyYearString()</td>
+<td class="failures">4.605s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Проверка покупки с валидной картой и проверка записи в БД</td>
+<td class="success">checkHappyPathByCard_1()</td>
+<td class="success">7.925s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Проверка покупки с невалидной картой и проверка записи в БД</td>
+<td class="failures">checkHappyPathByCard_2()</td>
+<td class="failures">10.578s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Проверка проверка некорректного года (прошлый год)</td>
+<td class="success">checkLastYear()</td>
+<td class="success">0.371s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного заполнения CVC (три нуля)</td>
+<td class="failures">checkWrongCVc()</td>
+<td class="failures">4.535s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Проверка некорректного заполнения CVC (две цифры)</td>
+<td class="success">checkWrongCVc_1()</td>
+<td class="success">0.361s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Проверка некорректного заполнения CVC (спецсимволы)</td>
+<td class="success">checkWrongCVc_2()</td>
+<td class="success">0.359s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Проверка некорректного заполнения CVC (латиница)</td>
+<td class="success">checkWrongCVc_3()</td>
+<td class="success">0.378s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Проверка некорректного заполнения CVC (кириллица)</td>
+<td class="success">checkWrongCVc_4()</td>
+<td class="success">0.372s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного владельца (цифры)</td>
+<td class="failures">checkWrongCardHolder()</td>
+<td class="failures">4.508s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного владельца (спецсимволы)</td>
+<td class="failures">checkWrongCardHolder_1()</td>
+<td class="failures">4.488s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного владельца (кириллица)</td>
+<td class="failures">checkWrongCardHolder_2()</td>
+<td class="failures">4.534s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Проверка некорректного номера карты (1 цифра)</td>
+<td class="success">checkWrongCardNumber()</td>
+<td class="success">0.350s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного номера карты (спецсимволы)</td>
+<td class="failures">checkWrongCardNumber_1()</td>
+<td class="failures">4.457s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Проверка некорректного номера карты (15 цифр)</td>
+<td class="success">checkWrongCardNumber_2()</td>
+<td class="success">0.357s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного номера карты (латиница)</td>
+<td class="failures">checkWrongCardNumber_3()</td>
+<td class="failures">4.644s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного номера карты (кириллица)</td>
+<td class="failures">checkWrongCardNumber_4()</td>
+<td class="failures">4.645s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного номера карты (все нули)</td>
+<td class="failures">checkWrongCardNumber_5()</td>
+<td class="failures">4.509s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Проверка некорректного ввода месяца (1 цифра)</td>
+<td class="success">checkWrongMonth()</td>
+<td class="success">0.381s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного ввода месяца (13-й месяц)</td>
+<td class="failures">checkWrongMonth_1()</td>
+<td class="failures">4.620s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного ввода месяца (все нули)</td>
+<td class="failures">checkWrongMonth_2()</td>
+<td class="failures">4.518s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного ввода месяца (спецсимволы)</td>
+<td class="failures">checkWrongMonth_3()</td>
+<td class="failures">4.560s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного ввода месяца (латиница)</td>
+<td class="failures">checkWrongMonth_4()</td>
+<td class="failures">4.612s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка некорректного ввода месяца (кириллица)</td>
+<td class="failures">checkWrongMonth_5()</td>
+<td class="failures">4.637s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Проверка проверка некорректного года (одна цифра)</td>
+<td class="success">checkWrongYear()</td>
+<td class="success">0.385s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">Проверка проверка некорректного года (спецсимволы)</td>
+<td class="failures">checkWrongYear_1()</td>
+<td class="failures">4.661s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка проверка некорректного года (латиница)</td>
+<td class="failures">checkWrongYear_2()</td>
+<td class="failures">4.644s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Проверка проверка некорректного года (кириллица)</td>
+<td class="failures">checkWrongYear_3()</td>
+<td class="failures">4.613s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at 6 сент. 2025 г., 22:29:49</p>
+</div>
+</div>
+</body>
+</html>
