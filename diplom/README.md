@@ -16,7 +16,7 @@ https://github.com/bawoper/QA-diplom/blob/main/diplom/Docs/Allure%20report.png
 
 С помощью команды git init создать локальный репозиторий.
 
-С помощью команды git clone https://https://github.com/bawoper/QA-diplom  клонировать удаленный.
+С помощью команды git clone https://github.com/bawoper/QA-diplom  клонировать удаленный.
 
 Запустить Docker Desktop.
 
