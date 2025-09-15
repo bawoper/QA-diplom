@@ -1,4 +1,4 @@
-package DataHelper;
+package dataHelper;
 
 import com.github.javafaker.Faker;
 import lombok.Value;
@@ -9,8 +9,9 @@ import java.util.Locale;
 import java.util.Random;
 
 public class DataGenerator {
-    public DataGenerator() {
+    private static final Faker FAKER = new Faker();
 
+    private DataGenerator() {
     }
 
     @Value
@@ -20,28 +21,44 @@ public class DataGenerator {
         public String year;
         public String cardHolder;
         public String cvc;
+
     }
 
-
     public static CardInfo getValidDataCard(String cardNumb) {
-        Faker faker = new Faker();
         String cardNumber = cardNumb;
         String month = getValidMonth();
         String year = LocalDate.now().plusYears(1).format(DateTimeFormatter.ofPattern("yy"));
-        String cardHolder = faker.name().name().toUpperCase(Locale.forLanguageTag("eng"));
-        String cvc = faker.numerify("###");
+        String cardHolder = FAKER.name().name().toUpperCase(Locale.forLanguageTag("eng"));
+        String cvc = FAKER.numerify("###");
         return new CardInfo(cardNumber, month, year, cardHolder, cvc);
 
     }
 
     public static CardInfo getInvalidDataCard() {
-        Faker faker = new Faker();
-        String cardNumber = faker.numerify("#");
-        String moth = faker.numerify("#");
+        String cardNumber = FAKER.numerify("#");
+        String moth = FAKER.numerify("#");
         String year = LocalDate.now().minusYears(1).format(DateTimeFormatter.ofPattern("yy"));
-        String cardHolder = faker.name().firstName().toUpperCase(Locale.forLanguageTag("ru"));
-        String cvc = faker.numerify("##");
+        String cardHolder = FAKER.name().firstName().toUpperCase(Locale.forLanguageTag("ru"));
+        String cvc = FAKER.numerify("##");
         return new CardInfo(cardNumber, moth, year, cardHolder, cvc);
+    }
+    @Value
+    public static class FakeCardInfo {
+        public String fakeNumber;
+        public String fakeWordEn;
+        public String fakeWordRU;
+        public String fakeEmpty;
+        public String fakeSymb;
+
+    }
+
+    public static FakeCardInfo getFakeData(){
+        String fakeNumber = FAKER.numerify("###############");
+        String fakeWordEn = FAKER.bothify("FW");
+        String fakerWordRU = FAKER.numerify("ДЮ");
+        String fakeEmpty = FAKER.numerify("");
+        String fakeSymb = FAKER.numerify("+=");
+        return new FakeCardInfo(fakeNumber, fakeWordEn, fakerWordRU, fakeEmpty, fakeSymb);
     }
 
 

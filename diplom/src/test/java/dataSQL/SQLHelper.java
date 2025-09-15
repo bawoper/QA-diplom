@@ -21,7 +21,7 @@ public class SQLHelper {
     @NoArgsConstructor
     @Data
     public static class StatusCheck {
-        String status;
+        String status = getStatusCard();
     }
 
     private static Connection getConn() throws SQLException {
@@ -53,4 +53,6 @@ public class SQLHelper {
             return QUERY_RUNNER.query(conn, statusCreditPay, new ScalarHandler<>());
         }
     }
+
+
 }
