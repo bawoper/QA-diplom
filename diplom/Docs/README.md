@@ -11,11 +11,6 @@ https://github.com/bawoper/QA-diplom/blob/new/diplom/Docs/Allure%20report.png
 
 ### Инструкция по запуску
 
-
-Создать Gradle проект в нужной папке.
-
-С помощью команды git init создать локальный репозиторий.
-
 С помощью команды git clone https://github.com/bawoper/QA-diplom  клонировать удаленный.
 
 Запустить Docker Desktop.
