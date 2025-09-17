@@ -22,9 +22,6 @@ https://github.com/bawoper/QA-diplom/blob/main/diplom/Docs/Allure%20report.png
 
 С помощью команды docker-compose up --build создать контейнеры и запустить их.
 
-С помощью команды java -jar artifacts/aqa-shop.jar запустить тестируемое приложение.
-
-Запустить тесты с помощью команды ./gradlew clean test
 
 ***Для тестирования с проверкой БД.***
 
