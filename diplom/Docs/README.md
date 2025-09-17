@@ -5,9 +5,9 @@
 ## Отчет по итогам тестирования
 [https://github.com/bawoper/QA-diplom/issues/12#issue-3399587398](https://github.com/bawoper/QA-diplom/issues/12)
 ## План автоматизации 
-https://github.com/bawoper/QA-diplom/blob/main/diplom/Docs/plan.md
+https://github.com/bawoper/QA-diplom/blob/new/diplom/Docs/plan.md
 ## Allure report 
-https://github.com/bawoper/QA-diplom/blob/main/diplom/Docs/Allure%20report.png
+https://github.com/bawoper/QA-diplom/blob/new/diplom/Docs/Allure%20report.png
 
 ### Инструкция по запуску
 
