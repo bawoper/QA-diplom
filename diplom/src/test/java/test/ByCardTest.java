@@ -20,12 +20,19 @@ public class ByCardTest {
     private final DataGenerator.CardInfo validDataWithCardDeclined = DataGenerator.getValidDataCard
             (DataGenerator.getValidCardNumberDeclined());
     private final DataGenerator.FakeCardInfo fakeData = DataGenerator.getFakeData();
-    private final PurchaseTour purchaseTour = new PurchaseTour();
+    private PurchaseTour purchaseTour;
+    private SQLHelper sqlHelper;
 
 
     @BeforeEach
     void setUp() {
         open("http://localhost:8080");
+    }
+
+    @BeforeEach
+    void setUpPage() {
+        purchaseTour = new PurchaseTour();
+        sqlHelper = new SQLHelper();
     }
 
     @BeforeAll
@@ -36,7 +43,7 @@ public class ByCardTest {
 
     @AfterEach
     void cleanDBCard() {
-        SQLHelper.cleanDatabase();
+        sqlHelper.cleanDatabase();
 
     }
 
@@ -123,7 +130,7 @@ public class ByCardTest {
     @DisplayName("Проверка некорректного номера карты (все нули)")
     void checkWrongCardNumber_5() {
         purchaseTour.clickCard();
-        enteringForm("0000000000000000",
+        enteringForm(fakeData.fakeAllZero,
                 validDataWithCardApproved.moth,
                 validDataWithCardApproved.year,
                 validDataWithCardApproved.cardHolder,
@@ -163,7 +170,7 @@ public class ByCardTest {
     void checkWrongMonth_1() {
         purchaseTour.clickCard();
         enteringForm(validDataWithCardApproved.cardNumber,
-                "13",
+                fakeData.fakeMonth,
                 validDataWithCardApproved.year,
                 validDataWithCardApproved.cardHolder,
                 validDataWithCardApproved.cvc);
@@ -176,7 +183,7 @@ public class ByCardTest {
     void checkWrongMonth_2() {
         purchaseTour.clickCard();
         enteringForm(validDataWithCardApproved.cardNumber,
-                "00",
+                fakeData.fakeTwoZero,
                 validDataWithCardApproved.year,
                 validDataWithCardApproved.cardHolder,
                 validDataWithCardApproved.cvc);
@@ -376,7 +383,7 @@ public class ByCardTest {
                 validDataWithCardApproved.moth,
                 validDataWithCardApproved.year,
                 validDataWithCardApproved.cardHolder,
-                "000");
+                fakeData.fakeThreeZero);
         purchaseTour.clickContinueButton();
         purchaseTour.findErrorMessage("Неверный формат");
 
@@ -447,8 +454,8 @@ public class ByCardTest {
                 validDataWithCardApproved.cvc);
         purchaseTour.clickContinueButton();
         purchaseTour.successBuy();
-        SQLHelper.getStatusCard();
-        assertEquals("APPROVED", SQLHelper.getStatusCard());
+        sqlHelper.getStatusCard();
+        assertEquals("APPROVED", sqlHelper.getStatusCard());
 
     }
 
@@ -464,8 +471,8 @@ public class ByCardTest {
                 validDataWithCardApproved.cvc);
         purchaseTour.clickContinueButton();
         purchaseTour.rejected();
-        SQLHelper.getStatusCard();
-        assertEquals("DECLINED", SQLHelper.getStatusCard());
+        sqlHelper.getStatusCard();
+        assertEquals("DECLINED", sqlHelper.getStatusCard());
 
     }
 

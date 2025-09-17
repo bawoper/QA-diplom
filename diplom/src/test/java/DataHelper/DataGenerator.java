@@ -42,6 +42,7 @@ public class DataGenerator {
         String cvc = FAKER.numerify("##");
         return new CardInfo(cardNumber, moth, year, cardHolder, cvc);
     }
+
     @Value
     public static class FakeCardInfo {
         public String fakeNumber;
@@ -49,16 +50,25 @@ public class DataGenerator {
         public String fakeWordRU;
         public String fakeEmpty;
         public String fakeSymb;
+        public String fakeAllZero;
+        public String fakeMonth;
+        public String fakeTwoZero;
+        public String fakeThreeZero;
 
     }
 
-    public static FakeCardInfo getFakeData(){
+    public static FakeCardInfo getFakeData() {
         String fakeNumber = FAKER.numerify("###############");
         String fakeWordEn = FAKER.bothify("FW");
         String fakerWordRU = FAKER.numerify("ДЮ");
         String fakeEmpty = FAKER.numerify("");
         String fakeSymb = FAKER.numerify("+=");
-        return new FakeCardInfo(fakeNumber, fakeWordEn, fakerWordRU, fakeEmpty, fakeSymb);
+        String fakeAllZero = FAKER.numerify("0000000000000000");
+        String fakeMonth = FAKER.numerify("13");
+        String fakeTwoZero = FAKER.numerify("00");
+        String fakeThreeZero = FAKER.numerify("000");
+        return new FakeCardInfo(fakeNumber, fakeWordEn, fakerWordRU, fakeEmpty, fakeSymb, fakeAllZero, fakeMonth,
+                fakeTwoZero, fakeThreeZero);
     }
 
 
@@ -76,4 +86,5 @@ public class DataGenerator {
         int indexInt = index.nextInt(months.length);
         return months[indexInt];
     }
+
 }

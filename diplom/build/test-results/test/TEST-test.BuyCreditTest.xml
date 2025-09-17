@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.BuyCreditTest" tests="32" skipped="0" failures="20" errors="0" timestamp="2025-09-15T21:39:59" hostname="MacBook-Pro-Andrej.local" time="106.079">
+<testsuite name="test.BuyCreditTest" tests="32" skipped="0" failures="20" errors="0" timestamp="2025-09-17T21:08:37" hostname="MacBook-Pro-Andrej.local" time="108.447">
   <properties/>
-  <testcase name="В кредит: Проверка покупки с невалидной картой и проверка записи в БД" classname="test.BuyCreditTest" time="14.201">
-    <failure message="Element not found {[class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972413747.0.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972413747.0.html&#10;Timeout: 10 s.&#10;Caused by: NoSuchElementException: Cannot locate an element [class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}
+  <testcase name="В кредит: Проверка покупки с невалидной картой и проверка записи в БД" classname="test.BuyCreditTest" time="12.928">
+    <failure message="Element not found {[class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143329683.0.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143329683.0.html&#10;Timeout: 10 s.&#10;Caused by: NoSuchElementException: Cannot locate an element [class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972413747.0.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972413747.0.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143329683.0.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143329683.0.html
 Timeout: 10 s.
 Caused by: NoSuchElementException: Cannot locate an element [class='notification__content'].findBy(exact text &quot;Ошибка! Банк отказал в проведении операции.&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -17,9 +17,9 @@ Caused by: NoSuchElementException: Cannot locate an element [class='notification
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.rejected(PurchaseTour.java:62)
-	at app//test.BuyCreditTest.checkHappyPathByCard_2_Credit(BuyCreditTest.java:470)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.rejected(PurchaseTour.java:58)
+	at app//test.BuyCreditTest.checkHappyPathByCard_2_Credit(BuyCreditTest.java:476)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -33,12 +33,12 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного заполнения CVC (две цифры)" classname="test.BuyCreditTest" time="0.36"/>
-  <testcase name="В кредит: Проверка пустой строки поля год" classname="test.BuyCreditTest" time="4.51">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972418830.1.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972418830.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка некорректного заполнения CVC (две цифры)" classname="test.BuyCreditTest" time="0.342"/>
+  <testcase name="В кредит: Проверка пустой строки поля год" classname="test.BuyCreditTest" time="4.686">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143334940.1.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143334940.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972418830.1.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972418830.1.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143334940.1.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143334940.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -50,9 +50,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkEmptyYearStringCredit(BuyCreditTest.java:237)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkEmptyYearStringCredit(BuyCreditTest.java:243)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -66,11 +66,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного номера карты (все нули)" classname="test.BuyCreditTest" time="4.568">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972423415.2.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972423415.2.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="В кредит: Проверка некорректного номера карты (все нули)" classname="test.BuyCreditTest" time="4.636">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143339548.2.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143339548.2.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972423415.2.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972423415.2.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143339548.2.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143339548.2.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -82,9 +82,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongCardNumber_5_Credit(BuyCreditTest.java:132)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongCardNumber_5_Credit(BuyCreditTest.java:138)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -98,11 +98,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного ввода месяца (все нули)" classname="test.BuyCreditTest" time="4.565">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972428004.3.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972428004.3.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="В кредит: Проверка некорректного ввода месяца (все нули)" classname="test.BuyCreditTest" time="4.614">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143344175.3.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143344175.3.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972428004.3.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972428004.3.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143344175.3.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143344175.3.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -114,9 +114,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongMonth_2_Credit(BuyCreditTest.java:184)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongMonth_2_Credit(BuyCreditTest.java:190)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -130,12 +130,12 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка пустой строки поля владелец" classname="test.BuyCreditTest" time="0.296"/>
-  <testcase name="В кредит: Проверка некорректного владельца (спецсимволы)" classname="test.BuyCreditTest" time="4.548">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972432836.4.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972432836.4.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="В кредит: Проверка пустой строки поля владелец" classname="test.BuyCreditTest" time="0.301"/>
+  <testcase name="В кредит: Проверка некорректного владельца (спецсимволы)" classname="test.BuyCreditTest" time="4.58">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143349063.4.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143349063.4.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972432836.4.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972432836.4.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143349063.4.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143349063.4.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -147,9 +147,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongCardHolder_1_Credit(BuyCreditTest.java:341)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongCardHolder_1_Credit(BuyCreditTest.java:347)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -163,12 +163,12 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка проверка некорректного года (одна цифра)" classname="test.BuyCreditTest" time="0.307"/>
-  <testcase name="В кредит: Проверка пустой строки номера карты" classname="test.BuyCreditTest" time="4.429">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972437579.5.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972437579.5.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка проверка некорректного года (одна цифра)" classname="test.BuyCreditTest" time="0.317"/>
+  <testcase name="В кредит: Проверка пустой строки номера карты" classname="test.BuyCreditTest" time="4.479">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143353908.5.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143353908.5.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972437579.5.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972437579.5.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143353908.5.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143353908.5.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -180,9 +180,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkEmptyCardStringCredit(BuyCreditTest.java:53)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkEmptyCardStringCredit(BuyCreditTest.java:59)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -196,12 +196,12 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного заполнения CVC (кириллица)" classname="test.BuyCreditTest" time="0.307"/>
-  <testcase name="В кредит: Проверка некорректного номера карты (латиница)" classname="test.BuyCreditTest" time="4.451">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972442347.6.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972442347.6.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка некорректного заполнения CVC (кириллица)" classname="test.BuyCreditTest" time="0.314"/>
+  <testcase name="В кредит: Проверка некорректного номера карты (латиница)" classname="test.BuyCreditTest" time="4.716">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143358890.6.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143358890.6.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972442347.6.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972442347.6.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143358890.6.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143358890.6.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -213,9 +213,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongCardNumber_3_Credit(BuyCreditTest.java:106)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongCardNumber_3_Credit(BuyCreditTest.java:112)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -229,12 +229,12 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка пустого поля CVC" classname="test.BuyCreditTest" time="0.292"/>
-  <testcase name="В кредит: Проверка некорректного владельца (цифры)" classname="test.BuyCreditTest" time="4.587">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972447174.7.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972447174.7.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="В кредит: Проверка пустого поля CVC" classname="test.BuyCreditTest" time="0.3"/>
+  <testcase name="В кредит: Проверка некорректного владельца (цифры)" classname="test.BuyCreditTest" time="4.605">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143363807.7.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143363807.7.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972447174.7.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972447174.7.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143363807.7.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143363807.7.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -246,9 +246,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongCardHolderCredit(BuyCreditTest.java:328)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongCardHolderCredit(BuyCreditTest.java:334)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -262,11 +262,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного ввода месяца (кириллица)" classname="test.BuyCreditTest" time="4.474">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972451703.8.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972451703.8.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка некорректного ввода месяца (кириллица)" classname="test.BuyCreditTest" time="4.705">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143368514.8.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143368514.8.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972451703.8.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972451703.8.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143368514.8.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143368514.8.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -278,9 +278,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongMonth_5_Credit(BuyCreditTest.java:224)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongMonth_5_Credit(BuyCreditTest.java:230)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -294,11 +294,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка проверка некорректного года (кириллица)" classname="test.BuyCreditTest" time="4.441">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972456155.9.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972456155.9.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка проверка некорректного года (кириллица)" classname="test.BuyCreditTest" time="4.727">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143373242.9.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143373242.9.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972456155.9.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972456155.9.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143373242.9.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143373242.9.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -310,9 +310,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongYear_3_Credit(BuyCreditTest.java:302)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongYear_3_Credit(BuyCreditTest.java:308)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -326,12 +326,12 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного заполнения CVC (спецсимволы)" classname="test.BuyCreditTest" time="0.291"/>
-  <testcase name="В кредит: Проверка некорректного номера карты (спецсимволы)" classname="test.BuyCreditTest" time="4.435">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972460880.10.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972460880.10.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка некорректного заполнения CVC (спецсимволы)" classname="test.BuyCreditTest" time="0.33"/>
+  <testcase name="В кредит: Проверка некорректного номера карты (спецсимволы)" classname="test.BuyCreditTest" time="4.677">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143378294.10.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143378294.10.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972460880.10.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972460880.10.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143378294.10.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143378294.10.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -343,9 +343,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongCardNumber_1_Credit(BuyCreditTest.java:80)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongCardNumber_1_Credit(BuyCreditTest.java:86)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -359,11 +359,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного ввода месяца (спецсимволы)" classname="test.BuyCreditTest" time="4.443">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972465327.11.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972465327.11.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка некорректного ввода месяца (спецсимволы)" classname="test.BuyCreditTest" time="4.492">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143382791.11.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143382791.11.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972465327.11.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972465327.11.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143382791.11.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143382791.11.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -375,9 +375,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongMonth_3_Credit(BuyCreditTest.java:198)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongMonth_3_Credit(BuyCreditTest.java:204)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -391,11 +391,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка проверка некорректного года (спецсимволы)" classname="test.BuyCreditTest" time="4.439">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972469773.12.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972469773.12.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка проверка некорректного года (спецсимволы)" classname="test.BuyCreditTest" time="4.68">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143387467.12.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143387467.12.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972469773.12.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972469773.12.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143387467.12.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143387467.12.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -407,9 +407,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongYear_1_Credit(BuyCreditTest.java:276)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongYear_1_Credit(BuyCreditTest.java:282)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -423,11 +423,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного владельца (кириллица)" classname="test.BuyCreditTest" time="4.592">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972474303.13.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972474303.13.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="В кредит: Проверка некорректного владельца (кириллица)" classname="test.BuyCreditTest" time="4.616">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143392023.13.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143392023.13.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972474303.13.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972474303.13.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143392023.13.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143392023.13.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -439,9 +439,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongCardHolder_2_Credit(BuyCreditTest.java:354)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongCardHolder_2_Credit(BuyCreditTest.java:360)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -455,13 +455,13 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка покупки с валидной картой и проверка записи в БД" classname="test.BuyCreditTest" time="3.15"/>
-  <testcase name="В кредит: Проверка проверка некорректного года (прошлый год)" classname="test.BuyCreditTest" time="0.294"/>
-  <testcase name="В кредит: Проверка некорректного номера карты (кириллица)" classname="test.BuyCreditTest" time="4.442">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972482250.14.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972482250.14.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка покупки с валидной картой и проверка записи в БД" classname="test.BuyCreditTest" time="3.769"/>
+  <testcase name="В кредит: Проверка проверка некорректного года (прошлый год)" classname="test.BuyCreditTest" time="0.31"/>
+  <testcase name="В кредит: Проверка некорректного номера карты (кириллица)" classname="test.BuyCreditTest" time="4.683">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143400803.14.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143400803.14.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972482250.14.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972482250.14.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143400803.14.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143400803.14.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -473,9 +473,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongCardNumber_4_Credit(BuyCreditTest.java:119)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongCardNumber_4_Credit(BuyCreditTest.java:125)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -489,11 +489,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного заполнения CVC (три нуля)" classname="test.BuyCreditTest" time="4.619">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972486814.15.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972486814.15.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="В кредит: Проверка некорректного заполнения CVC (три нуля)" classname="test.BuyCreditTest" time="4.556">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143405402.15.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143405402.15.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972486814.15.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972486814.15.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143405402.15.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143405402.15.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -505,9 +505,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongCVcCredit(BuyCreditTest.java:381)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongCVcCredit(BuyCreditTest.java:387)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -521,11 +521,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного ввода месяца (13-й месяц)" classname="test.BuyCreditTest" time="4.444">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972491323.16.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972491323.16.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
+  <testcase name="В кредит: Проверка некорректного ввода месяца (13-й месяц)" classname="test.BuyCreditTest" time="4.673">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143410088.16.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143410088.16.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Неверный формат&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972491323.16.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972491323.16.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143410088.16.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143410088.16.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Неверный формат&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -537,9 +537,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongMonth_1_Credit(BuyCreditTest.java:171)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongMonth_1_Credit(BuyCreditTest.java:177)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -553,14 +553,14 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного номера карты (1 цифра)" classname="test.BuyCreditTest" time="0.283"/>
-  <testcase name="В кредит: Проверка некорректного заполнения CVC (латиница)" classname="test.BuyCreditTest" time="0.293"/>
-  <testcase name="В кредит: Проверка некорректного номера карты (15 цифр)" classname="test.BuyCreditTest" time="0.304"/>
-  <testcase name="В кредит: Проверка некорректного ввода месяца (латиница)" classname="test.BuyCreditTest" time="4.435">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972496650.17.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972496650.17.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка некорректного номера карты (1 цифра)" classname="test.BuyCreditTest" time="0.291"/>
+  <testcase name="В кредит: Проверка некорректного заполнения CVC (латиница)" classname="test.BuyCreditTest" time="0.294"/>
+  <testcase name="В кредит: Проверка некорректного номера карты (15 цифр)" classname="test.BuyCreditTest" time="0.301"/>
+  <testcase name="В кредит: Проверка некорректного ввода месяца (латиница)" classname="test.BuyCreditTest" time="4.684">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143415655.17.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143415655.17.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972496650.17.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972496650.17.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143415655.17.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143415655.17.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -572,9 +572,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongMonth_4_Credit(BuyCreditTest.java:211)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongMonth_4_Credit(BuyCreditTest.java:217)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -588,11 +588,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка проверка некорректного года (латиница)" classname="test.BuyCreditTest" time="4.43">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972501082.18.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972501082.18.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка проверка некорректного года (латиница)" classname="test.BuyCreditTest" time="4.708">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143420330.18.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143420330.18.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972501082.18.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972501082.18.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143420330.18.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143420330.18.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -604,9 +604,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkWrongYear_2_Credit(BuyCreditTest.java:289)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkWrongYear_2_Credit(BuyCreditTest.java:295)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -620,11 +620,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка пустой строки поля месяц" classname="test.BuyCreditTest" time="4.428">
-    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972505503.19.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972505503.19.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
+  <testcase name="В кредит: Проверка пустой строки поля месяц" classname="test.BuyCreditTest" time="4.721">
+    <failure message="Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}&#10;Expected: visible&#10;Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143425042.19.png&#10;Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143425042.19.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)}
 Expected: visible
-Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972505503.19.png
-Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1757972505503.19.html
+Screenshot: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143425042.19.png
+Page source: file:/Users/bawoper/Desktop/QAdiplom/diplom/build/reports/tests/1758143425042.19.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(exact text &quot;Поле обязательно для заполнения&quot;)
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -636,9 +636,9 @@ Caused by: NoSuchElementException: Cannot locate an element .input__sub.findBy(e
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:80)
-	at app//test.BuyCreditTest.checkEmptyMonthStringCredit(BuyCreditTest.java:145)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
+	at app//page.PurchaseTour.findErrorMessage(PurchaseTour.java:63)
+	at app//test.BuyCreditTest.checkEmptyMonthStringCredit(BuyCreditTest.java:151)
 	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
@@ -652,11 +652,11 @@ Driver info: driver.version: unknown
 	... 12 more
 </failure>
   </testcase>
-  <testcase name="В кредит: Проверка некорректного ввода месяца (1 цифра)" classname="test.BuyCreditTest" time="0.294"/>
+  <testcase name="В кредит: Проверка некорректного ввода месяца (1 цифра)" classname="test.BuyCreditTest" time="0.303"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[сент. 16, 2025 12:40:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[сент. 18, 2025 12:08:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-сент. 16, 2025 12:40:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+сент. 18, 2025 12:08:39 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>
