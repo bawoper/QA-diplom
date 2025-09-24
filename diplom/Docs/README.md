@@ -3,7 +3,7 @@
 
 
 ## Отчет по итогам тестирования
-[https://github.com/bawoper/QA-diplom/issues/12#issue-3399587398](https://github.com/bawoper/QA-diplom/issues/12)
+https://github.com/bawoper/QA-diplom/blob/new/diplom/Docs/Report.md
 ## План автоматизации 
 https://github.com/bawoper/QA-diplom/blob/new/diplom/Docs/plan.md
 ## Allure report 
