@@ -9,7 +9,10 @@ https://github.com/bawoper/QA-diplom/blob/new/diplom/Docs/plan.md
 ## Allure report 
 https://github.com/bawoper/QA-diplom/blob/new/diplom/Docs/Allure%20report.png
 
-### Инструкция по запуску
+## Summary
+https://github.com/bawoper/QA-diplom/blob/new/diplom/Docs/Summary.md
+
+## *Инструкция по запуску*
 
 С помощью команды git clone https://github.com/bawoper/QA-diplom  клонировать удаленный.
 
